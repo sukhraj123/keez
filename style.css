@@ -172,7 +172,7 @@ nav .fa{
         padding: 30px;
     }
     .header{
-        background-position: center;
+        background-position: right;
         background-image: linear-gradient(rgba(0, 0, 0, 0.178),rgba(0, 0, 0, 0.185)),url(image/BG\ -\ Copy.png);
     }
 }
