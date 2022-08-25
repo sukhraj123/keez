@@ -350,7 +350,6 @@ div img{
     justify-content: space-between;
     width: 80%;
     margin: auto;
-    padding-bottom: 50pxpx;
     position: relative;
     
 }
@@ -442,23 +441,11 @@ div img{
 
 
 }
-.photo{
-    
-    font-size: 16px;
-    font-weight: 200;
-    line-height: 5px;
-    text-align: center;
-    background-color: transparent;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: 100%;
 
-
-}
 .photo img{
 
     width: 80%;
-    height: fit-content;
+    
 }
 h4{
     color:#e6bf6d;
