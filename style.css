@@ -167,7 +167,6 @@ nav .fa{
     }
     .break{
         background-image: linear-gradient(rgba(29, 41, 0, 0.267),rgba(0, 0, 0, 0.267)),url(image/cristina-gottardi-wVTGdIGdojc-unsplash\ -\ Copy.jpg);
-        min-height: 150px;
         background-size:auto
     }
     
@@ -393,6 +392,10 @@ div img{
     div img{
         width: 80%;
         
+    }
+    .photo{
+        display: inline-block;
+        width: 100%;
     }
 
     .service-co{
