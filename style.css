@@ -427,9 +427,9 @@ div img{
         width: 90%;
     }
     .photo{
-        display: inline-block;
+        display: block;
         width: 100%;
-        height: fit-content;
+        height: 300px;
     }
 }
 
