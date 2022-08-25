@@ -387,9 +387,7 @@ div img{
 .layer:hover{
     background: #787a40;
 }
-.photo{
-    width: 600px;
-}
+
 
 @media(max-width: 500px){
 
@@ -453,13 +451,14 @@ div img{
     justify-content: space-between;
     display: flex;
     flex-direction: 100%;
+    width: 600px;
 
 
 }
 .photo img{
 
     width: 80%;
-    height: fit-content;
+    margin: auto;
 }
 h4{
     color:#e6bf6d;
