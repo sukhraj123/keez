@@ -51,6 +51,20 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.breakk{
+    min-height: 200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(29, 41, 0, 0.267),rgba(0, 0, 0, 0.267)),url(image/cristina-gottardi-wVTGdIGdojc-unsplash.jpg);
+    
+    background-size: cover;
+    position: relative;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -168,6 +182,12 @@ nav .fa{
     .break{
         background-image: linear-gradient(rgba(29, 41, 0, 0.267),rgba(0, 0, 0, 0.267)),url(image/cristina-gottardi-wVTGdIGdojc-unsplash\ -\ Copy.jpg);
         background-size:auto
+        min-height: 100px;
+    }
+    .breakk{
+        background-image: linear-gradient(rgba(29, 41, 0, 0.267),rgba(0, 0, 0, 0.267)),url(image/cristina-gottardi-wVTGdIGdojc-unsplash\ -\ Copy.jpg);
+        background-size:auto
+        min-height: 100px;
     }
     
    .text-box{
