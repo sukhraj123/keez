@@ -511,7 +511,7 @@ h4{
 }
 
 @media(max-width: 700px){
-        .photo{
+    .photo a{
         margin: auto;
 
         min-height: 200px;
@@ -526,20 +526,11 @@ h4{
         display: flex;
     
     }
-    .photo{
-        flex-basis: 48%;
-    background: transparent;
-    border-radius: 16px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    text-align: center;
 
 
     
 
-    }
+    
     h4{
         
         font-size: 22px;
