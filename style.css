@@ -343,17 +343,7 @@ div img{
     width: 200px;
 }
 
-.row{
 
-    margin-top: 10%;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    padding-bottom: 50pxpx;
-    position: relative;
-    
-}
 
 
 .pic-col{
@@ -423,10 +413,8 @@ div img{
     .service-co img{
         width: 90%;
     }
-    .roww{
-        display: block;
-
-    }
+   
+       
 
 }
 
@@ -443,14 +431,10 @@ div img{
 }
 .photo{
     
-    font-size: 16px;
-    font-weight: 200;
-    line-height: 5px;
-    text-align: center;
-    background-color: transparent;
+   
     justify-content: space-between;
     display: flex;
-    flex-direction: 100%;
+    flex-direction: 38%;
     width: 600px;
 
 
@@ -511,9 +495,8 @@ h4{
 }
 
 @media(max-width: 700px){
-    .photo a{
-        margin: auto;
-
+    .photo{
+    
         min-height: 200px;
     }
     .photo img{
