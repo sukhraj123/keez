@@ -271,9 +271,9 @@ p{
 
 .row{
     
-    display: flex;
+    display: block;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
     padding-top: 20px;
     Margin: auto;
     
