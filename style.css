@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Lora', serif;
-    
-    
+    overflow-x: hidden;
+
 }
 .header{
     min-height: 500px;
@@ -355,7 +355,10 @@ p{
 }
 .social{
     padding-top: 100px;
-    padding-bottom: 100px;
+    
+}
+.social img{
+    width: 25px;
 }
 div.scrollmenu {
     background-color: white;
@@ -506,6 +509,11 @@ div img{
         width: 90%;
         
     }
+}
+
+.rez img{
+    width: 40%;
+    padding:25px;
 }
 
 
