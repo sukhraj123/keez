@@ -629,7 +629,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
     nav .fa {
         display: block;
-        color: #fff;
+        color: #0071bc;
         margin: 16px;
         font-size: 22px;
         cursor: pointer;
@@ -640,7 +640,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         }
     nav .fa-times{
         display: block;
-        color: #040404;
+        color: #0071bc;
         margin: 16px;
         font-size: 22px;
         cursor: pointer;
@@ -655,12 +655,12 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 @media(max-width: 700px){
 
     .service{
-        margin: auto;
+        
         
         margin-top: 150px;
         margin-bottom: 150px;
         height: fit-content;
-        flex-direction: column;
+       
         
     }
   
@@ -673,10 +673,11 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         
     }
     
-.service-col{
+.row{
     flex-direction: column;
-    margin: auto;
-    display: block;
+    
+    margin-left: 15%;
+    width: 90%;
 }
     
     
