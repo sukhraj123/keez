@@ -534,7 +534,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     100% { opacity: 1; }
   }
  
- @media(max-width: 700px){
+ @media(max-width: 900px){
     .secc{
         width: 90%;
         margin-left: 5%;
@@ -576,7 +576,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
     }
-    @media(max-width: 700px){
+    @media(max-width: 900px){
         
         nav img{
             width: 100px;
@@ -663,7 +663,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         color: #040404;
     }
 }
-@media(max-width: 700px){
+@media(max-width: 900px){
 
     .service{
         
