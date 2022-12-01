@@ -7,6 +7,7 @@
 
 }
 
+
 header{
     width: 90%;
     background-color: #252525;
@@ -162,6 +163,7 @@ p{
     margin: auto;
     
     
+    
 }
 .service-col{
     flex-basis: 31%;
@@ -249,6 +251,7 @@ p{
     justify-content: space-between;
     display: flex;
     flex-direction: 100%;
+    
 
 
 }
@@ -256,6 +259,7 @@ p{
 
     width: 80%;
     height: fit-content;
+    border-radius: 15px;
 }
 h4{
     color:#fff;
@@ -565,117 +569,115 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         left: 0;
 
     }
-    @media(max-width: 900px){
-.text-box h1{
-    .text-box{
-        width: 50%;
-        top: 10%;
-        display: block;
-        margin: auto;
-    }
-}
-
-    
-@media(max-width: 300px){
-.text-box h1{
-    .text-box{
-        width: 50%;
-        top: 10%;
-        display: block;
-        margin: auto;
-    }
-}
-
-    }
-
-    @media(max-width: 900px){
-        
-        nav img{
-            width: 100px;
-        }
-       .header img{
-        width: 200px;
-       }
-    .rowww a{
-        display: block;
-        margin: auto;
-        left: -40%;
-        border-radius: 8px;
-        
-    }
-    .break img{
-        display: block;
-        margin: auto;
-        width: 80%;
-        border-radius: 8px;
-    }
-    
-     .text-box{
-        width: 50%;
-        top: 50%;
-        display: block;
-        margin: auto;
-    }
-    .text-box h1{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        font-size: 32px;
-        color: #fff;
-        display: block;
-        animation: fadeIn 5s;
+        margin: 40px 20px 0 20px;
+        
+      }
+      
+      .container .heading{
+        width: 50%;
+        padding-bottom: 50px;
+        
+      }
+      .container .heading h3{
+        font-size: 3em;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #222;
+      }
+      
+      .container .heading h3 span{
+        font-weight: 100;
+      }
+      .container .box{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       border-radius: 15px;
+      }
+      
+      .container .box .dream{
+        display: flex;
+        flex-direction: column;
+        width: 32.5%;
+        border-radius: 15px;
+        
+      }
+      
+      .container .box .dream img{
+        width: 100%;
+        padding-bottom: 15px;
+        border-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
 
-        
-        
-    }
-    .nav-links ul li{
-        display: block;
-        color: #040404;
-        border: #00dcd1;
-    }
-    .nav-links ul li a{
-        display: block;
-        color: #040404;
-    }
-    .nav-links{
-        position: fixed;
-        background: #fff;
-        height: 50vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: right;
-        z-index: 1;
-        transition: 1s;
-        margin: auto;
-        
-    }
-        
-
-    nav .fa {
-        display: block;
-        color: #0071bc;
-        margin: 16px;
-        font-size: 22px;
-        cursor: pointer;
-        transition: 1s;
-
-        
-
+      }
+      
+      .container .btn{
+        margin: 40px 0 70px 0;
+        background: #222;
+        padding: 15px 40px ;
+        border-radius: 5px;
+      }
+      
+      .container .btn a{
+       color: #fff;
+       font-size: 1.2em;
+       text-decoration: none;
+       font-weight: bolder;
+       letter-spacing: 3px;
+      }
+      
+      @media only screen and (max-width: 769px){
+          .container .box{
+         flex-direction: column;
         }
-    nav .fa-times{
+      
+      .container .box .dream{
+        width: 100%;
+        border-radius: 15px;
+      }
+      
+      
+      
+      
+      
+      }
+      
+      @media only screen and (max-width: 643px){
+      .container .heading{
+        width: 100%;
+        border-radius: 15px;
+      }
+      .container .heading h3{
+        font-size: 1em;
+      
+      }
+      
+      
+      
+      
+      
+      
+      
+      }
+    @media(max-width: 1900px){
+    .text-box h1{
+        width: 100%;
+        top: 10%;
         display: block;
-        color: #0071bc;
-        margin: 16px;
-        font-size: 22px;
-        cursor: pointer;
-        transition: 1s;
+        margin: auto;
     }
     
-    .nav-links ul{
-        padding: 15px;
-        color: #040404;
+
+
     }
-}
-@media(max-width: 300px){
+    @media(max-width: 900px){
         
         nav img{
             width: 100px;
@@ -699,7 +701,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     
      .text-box{
         width: 50%;
-        top: 50%;
+        top: 40%;
         display: block;
         margin: auto;
     }
