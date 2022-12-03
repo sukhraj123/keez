@@ -17,8 +17,9 @@ header{
     height: 1000px;
     background-image: url(how.gif);
     border-radius: 25px;
+    background-size: 90%;
+    background-repeat: no-repeat;
     
-    background-size: cover;
     
 }
 header img{
@@ -700,10 +701,12 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     }
     .header{
 
-        background-image: url(y1.gif);
-        background-position: center center;
-        background-size: cover;
-        background-attachment: fixed;
+        background-image: url(yuu1.gif);
+        width: 90%;
+        height: 500px;
+    }
+    .text-box{
+        padding-top: 250px;
     }
     .break img{
         display: block;
