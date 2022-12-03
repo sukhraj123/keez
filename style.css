@@ -14,11 +14,12 @@ header{
     border-color: #000000;
     border: #000000;
     margin: auto;
-    height: 600px;
-    background-image: url(yuu.gif);
+    height: 1000px;
+    background-image: url(how.gif);
     border-radius: 25px;
-    background-size: 90%;
+    
     background-size: cover;
+    
 }
 header img{
     width: 150px;
@@ -682,7 +683,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 
     }
-    @media(max-width: 900px){
+    @media(max-width: 680px){
         
         nav img{
             width: 100px;
@@ -696,6 +697,13 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         left: -40%;
         border-radius: 8px;
         
+    }
+    .header{
+
+        background-image: url(y1.gif);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
     }
     .break img{
         display: block;
