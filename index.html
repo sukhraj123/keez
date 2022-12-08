@@ -7,6 +7,8 @@
     <link rel="icon" href="2-removebg-preview.png">
     <title>KZ Web</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;1,200;1,400;1,600&display=swap" rel="stylesheet">
@@ -56,19 +58,19 @@
          <p>Quality Comes First.</p>
      
      <div class="row">
-         <div class="service-col">
+         <div class="service-col" data-aos="fade-right">
              <a href="Service.html"><img src="111-removebg-preview.png"></a>
              <h3>Web Design</h3>
              <p>Great Simple High Quality Modern Site Desgins </p>
              
          </div>
-         <div class="service-col">
+         <div class="service-col" data-aos="fade-right">
              <a href="Service.html"><img src="222-removebg-preview.png"></a>
              <h3>HTML-CSS-JS</h3>
              <p>Frontend Languages To Create The Masterpeice.</p>
              
          </div>
-         <div class="service-col">
+         <div class="service-col" data-aos="fade-right">
              <a href="Service.html"><img src="333-removebg-preview.png"></a>
              <h3>Self Hosting & Maintenance</h3>
              <p>As A Part Of Our Servise To Our Clients<br> We Ensure You Are Maintained Up & Running. </p>
@@ -83,7 +85,7 @@
         <div class="mapp">
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.484002209444!2d-123.1011619!3d49.2482715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673e4d09eaea3%3A0xc3bcb9c7490ccfb9!2sKR%20Web%20Design%20%26%20Development!5e0!3m2!1sen!2sca!4v1666385726431!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
            </div>
-           <div class="contain-text"><h2>
+           <div class="contain-text" data-aos="fade-left"><h2>
             Located In The Heart Of Vancouver. <br> Local Designer & Developer
            </h2></div>
     
@@ -99,14 +101,14 @@
     <div class="row">
         
     
-        <div class="photo">
+        <div class="photo"data-aos="fade-right">
             <a href="index.html">
                 <img src="1.png"></a>
                 
     
     
         </div>
-        <div class="photo">
+        <div class="photo"data-aos="fade-left">
             <a href="index.html"><img src="6.png"></a>
         </div>
     </div>
@@ -237,6 +239,13 @@
         </div>
         
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
