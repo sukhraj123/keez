@@ -14,17 +14,20 @@ header{
     border-color: #000000;
     border: #000000;
     margin: auto;
-    height: 1000px;
-    background-image: url(how.gif);
+    height: 500px;
+    background-image: url(vc.gif);
     border-radius: 25px;
-    background-size: 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
     
     
 }
 header img{
-    width: 150px;
-
+    width: 200px;
+    margin: auto;
+    display: block;
+    padding-top: 25px;
+    
 }
 header h1{
     color: rgb(0, 0, 0)
@@ -57,25 +60,28 @@ header p{
 }
 .text-box h1{
     font-size: 60px;
-    color: rgb(255, 255, 255);
-    font-weight: 200;
+    color: #fa7e09;
+    font-weight: 600;
+    
+    
 }
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 22px;
     
-    color: rgb(255, 255, 255);
+    color: #fa7e09;
 }
 
 .hero-htn{
     display: inline-block;
     text-decoration-style: none;
     
-    color: #fff;
-    border: 1px solid #fff;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fa7e09;
     padding: 12px 34px;
-    font-size: 15px;
-    background: #0071bc;
+    font-size: 22px;
+    font-weight: 600;
+    background: #ffffff;
     position: relative;
     cursor: pointer;
     animation: fadeIn 5s;
@@ -155,7 +161,7 @@ h1{
 p{
     color: #fa7e09;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 22px;
     padding: 10px;
     margin: auto;
@@ -189,6 +195,20 @@ p{
     width: 200px;
 }
 .breakk{
+    
+    width: 90%;
+    margin: auto;
+    display: flex;
+   
+    position: relative;
+    
+    margin-top: 50px;
+    border: #fa7e09;
+    border-radius: 10px;
+    border-style: ridge;
+    
+}
+#breakkk{
     
     width: 90%;
     margin: auto;
@@ -283,14 +303,14 @@ h4{
 
 .bottom{
 
-    background-color: #231f20;
+    background-color: #000000;
     width: 100%;
     
 }
 
 
 .down{
-    background-color: #231f20;
+    background-color: #000000;
     width: 100%;
     padding-top: 200px;
     display: flex;
@@ -350,7 +370,7 @@ margin: auto;
     font-weight: 200;
     line-height: 5px;
     text-align: center;
-    background-color: #231f20;
+    background-color: #000000;
     justify-content: space-between;
 }
 #fcf-form {
@@ -688,6 +708,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         
         nav img{
             width: 100px;
+        }
+        header{
+            background-size: 260%;
         }
        .header img{
         width: 200px;
