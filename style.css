@@ -16,6 +16,14 @@ body {
 .us p{
   color: #ffffff;
 }
+nav #user #publicKey {
+  right: 0;
+  height: 50px;
+  padding: 5px;
+  justify-content: space-between;
+  width: 40px;
+  margin: auto;
+}
 nav.sticky{
   position: fixed;
   top: 0;
@@ -23,8 +31,8 @@ nav.sticky{
 }
 nav{
   display: flex;
-  padding: 0% 2%;
-  float: left;
+  padding: 0% 6%;
+  
   background-attachment: fixed;
   justify-content: space-between;
   align-items: left;
@@ -360,10 +368,18 @@ nav .fa-times{
     transition: 1s;
 
 }
-
+.fcf-form-group{
+  margin: auto;
+  text-align: center;
+  
+}
 .nav-links ul{
     padding: 15px;
     color: #040404;
+}
+.bg img{
+  width: 120%;
+
 }
   
 }

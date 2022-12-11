@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KZ Restaurant Speacialist</title>
+    <link rel="icon" href="10.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
+
+</head>
+<body>
+    <nav id="nav-links">
+        <img src="image/banner.png" alt="" width="300px" data-aos="fade-left"/>
+    </nav>
+  
+  
+  <form method="post" action="register.php">
+
+
+<label>Enter Name</label>
+<input type="text" name="username" placeholder="Enter UserName"><br><br>
+<label>Enter Email</label>
+<input type="text" name="usermail" placeholder="Enter Email Address"><br><br>
+<label>Enter Password</label>
+<input type="password" name="userpass" placeholder="Enter Password"><br><br>
+<input type="submit" name="usersubmit" value="Create Account">
+
+
+
+  </form>
+
+
+      <section class="footer">
+
+
+
+        <img src="image/2.png" alt="" data-aos="flip-up">
+
+        <div>
+          <p>Made by <a href="www.KeezRyuusei.ca">KeezRyuusei.ca</a> 
+            © 2023 KZ Web Design & Development, All Rights Reserved.</p>
+        </div>
+      </section>
+
+
+
+
+
+
+      <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+    });
+    
+    
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 3000,
+            once: true,
+          });
+        </script>
+    
+    <script>
+    
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+    
+        window.onscroll = function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navbar.classList.add("sticky");
+    
+            }
+            else{
+                navbar.classList.remove("sticky");
+            }
+        }
+    
+    </script>
+        
+    <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+        
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+    
+           
+            
+        </script>
+        
+    
+</body>
+</html>
