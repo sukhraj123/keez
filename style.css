@@ -27,7 +27,8 @@ nav #user #publicKey {
 nav.sticky{
   position: fixed;
   top: 0;
-
+  right: 0;
+  left: 0;
 }
 nav{
   display: flex;
@@ -35,7 +36,7 @@ nav{
   
   background-attachment: fixed;
   justify-content: space-between;
-  align-items: left;
+  align-items: right;
   background-color: #000000;
 
  
@@ -43,11 +44,15 @@ nav{
   
 }
 nav img{
-  width: 200px;
+  width: 240px;
+  background-color: #000000;
   
   
 }
-
+#navbar {
+  
+  background-color: rgb(0, 0, 0);
+}
 .nav-links{
   flex: 1;
   
