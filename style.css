@@ -373,6 +373,9 @@ nav .fa-times{
   text-align: center;
   
 }
+.fcf-form-class h1{
+  color: #fff;
+}
 .nav-links ul{
     padding: 15px;
     color: #040404;
@@ -387,9 +390,6 @@ nav .fa-times{
   html {
     color-scheme: dark;
   }
-  body {
-    color: #fff;
-    background: black;
-  }
+  
   
 }
