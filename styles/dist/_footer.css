@@ -1,5 +1,4 @@
 .footer {
-  padding-top: 200px;
   background: #000000;
 }
 
@@ -17,6 +16,7 @@
 
 .news h1 {
   color: #fff;
+  font-size: 60px;
 }
 
 @media (max-width: 700px) {

@@ -4,14 +4,29 @@
 
 .text-top {
   background: image url("image/foodbg.gif");
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.text-top h1 {
+  text-align: left;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 70px;
+}
+
+.text-top p {
+  text-align: left;
 }
 
 @media (max-width: 700px) {
   .text-top {
     background: image url(image/Pro.gif);
     background-size: 100%;
+    height: 1000px;
+    display: block;
+  }
+
+  .text-top h1 {
+    font-size: 60px;
   }
 }

@@ -5,6 +5,14 @@
   padding-bottom: 100px;
 }
 
+.work h1 {
+  text-align: left;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 80px;
+  color: #ffffff;
+}
+
 .work a {
   width: 70%;
 }
@@ -30,5 +38,9 @@
   .work {
     display: block;
     width: 100%;
+  }
+
+  .work h1 {
+    font-size: 60px;
   }
 }
