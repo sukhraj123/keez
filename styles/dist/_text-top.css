@@ -1,0 +1,17 @@
+.text-top img {
+  width: 100%;
+}
+
+.text-top {
+  background: image url("image/foodbg.gif");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 700px) {
+  .text-top {
+    background: image url(image/Pro.gif);
+    background-size: 100%;
+  }
+}

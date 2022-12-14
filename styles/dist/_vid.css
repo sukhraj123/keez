@@ -1,0 +1,15 @@
+.vid {
+  margin: auto;
+  background-color: #fa7e09;
+  height: 100vh;
+}
+
+.vid img {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .vid img {
+    display: block;
+  }
+}

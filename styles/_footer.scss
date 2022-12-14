@@ -1,0 +1,30 @@
+.footer{
+    padding-top: 200px;
+    background: #000000;
+  }
+  .footer img{
+  width: 200px;
+  }
+  .footer p{ 
+    font-size: 14px;
+    color: #fff;
+    .footer h1{
+      color: #fff;
+    }
+  }
+  .news h1{
+    color: #fff;
+
+  }
+  @media(max-width: 700px){
+.fcf-form-group{
+  margin: auto;
+  text-align: center;
+  
+}
+.fcf-form-class h1{
+  color: #fff;
+}
+
+    
+  }

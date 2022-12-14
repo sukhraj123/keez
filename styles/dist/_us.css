@@ -1,0 +1,21 @@
+.us {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.us h1 {
+  text-decoration: underline;
+}
+
+.us img {
+  width: 75px;
+  border-radius: 10px 100px/120px;
+}
+
+.us h1 {
+  color: #000000;
+}
+
+.us p {
+  color: #000000;
+}

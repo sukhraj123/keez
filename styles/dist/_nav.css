@@ -1,0 +1,135 @@
+nav #user #publicKey {
+  right: 0;
+  height: 50px;
+  padding: 5px;
+  justify-content: space-between;
+  width: 40px;
+  margin: auto;
+}
+
+nav.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+nav {
+  display: flex;
+  padding: 0% 6%;
+  background-attachment: fixed;
+  justify-content: space-between;
+  align-items: right;
+  background-color: #000000;
+}
+
+nav img {
+  width: 240px;
+  background-color: #000000;
+}
+
+#nav-links {
+  background-color: black;
+}
+
+.nav-links {
+  flex: 1;
+  width: fit-content;
+  text-align: right;
+  background-color: #000000;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  animation: fadeIn 5s;
+}
+
+.nav-links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  background-attachment: fixed;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #fa7e09;
+  display: block;
+  margin: auto;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+nav .fa {
+  display: none;
+}
+
+.menu {
+  width: 80px;
+  text-align: center;
+  margin: auto;
+  align-items: right;
+  color: #000000;
+  background-color: #000000;
+}
+
+.menu a {
+  text-align: center;
+  background-color: #000000;
+}
+
+@media (max-width: 700px) {
+  .nav-links ul li {
+    display: block;
+    color: #000000;
+    border: #00dcd1;
+  }
+
+  .nav-links ul li a {
+    display: block;
+    color: #000000;
+  }
+
+  .nav-links {
+    position: fixed;
+    background: #fff;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: right;
+    z-index: 1;
+    transition: 1s;
+    margin: auto;
+  }
+
+  nav .fa {
+    display: block;
+    color: #fa7e09;
+    margin: 16px;
+    font-size: 32px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  nav .fa-times {
+    display: block;
+    color: #fa7e09;
+    margin: 16px;
+    font-size: 32px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .nav-links ul {
+    padding: 15px;
+    color: #040404;
+  }
+}

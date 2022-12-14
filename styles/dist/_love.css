@@ -1,0 +1,19 @@
+.love {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.love p {
+  color: #000000;
+}
+
+.love h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 200;
+  padding: 2%;
+  color: black;
+  background-color: #ffffff;
+  text-decoration: overline;
+  text-decoration: underline overline;
+}

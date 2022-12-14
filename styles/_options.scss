@@ -1,0 +1,26 @@
+.options{
+  
+    display: flex;
+    background: #000000;
+    height: fit-content;
+  }
+  .options a{
+    margin: auto;
+    
+    flex-direction: column;
+    
+    justify-content: space-between;
+  }
+  .options img{
+    border-radius: 10px 100px / 120px;
+    width: 300px;
+  }
+  
+  @media(max-width: 700px){
+    .options{
+        display: block;
+      }
+      
+
+    
+  }  

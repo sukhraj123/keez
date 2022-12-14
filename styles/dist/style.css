@@ -1,0 +1,380 @@
+.love {
+  background-color: #fa7e09;
+  height: 100vh;
+}
+
+.love p {
+  color: #000000;
+}
+
+.love h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 200;
+  padding: 2%;
+  color: black;
+  background-color: #fa7e09;
+  text-decoration: overline;
+  text-decoration: underline overline;
+}
+
+.text-top img {
+  width: 100%;
+}
+
+.text-top {
+  background-image: url("image/foodbg.gif");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media (max-width: 700px) {
+  .text-top {
+    background-image: url(image/Pro.gif);
+    background-size: 100%;
+  }
+}
+nav #user #publicKey {
+  right: 0;
+  height: 50px;
+  padding: 5px;
+  justify-content: space-between;
+  width: 40px;
+  margin: auto;
+}
+
+nav.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+nav {
+  display: flex;
+  padding: 0% 6%;
+  background-attachment: fixed;
+  justify-content: space-between;
+  align-items: right;
+  background-color: #000000;
+}
+
+nav img {
+  width: 240px;
+  background-color: #000000;
+}
+
+#nav-links {
+  background-color: black;
+}
+
+.nav-links {
+  flex: 1;
+  width: fit-content;
+  text-align: right;
+  background-color: #000000;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  animation: fadeIn 5s;
+}
+
+.nav-links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  background-attachment: fixed;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #fa7e09;
+  display: block;
+  margin: auto;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+nav .fa {
+  display: none;
+}
+
+.menu {
+  width: 80px;
+  text-align: center;
+  margin: auto;
+  align-items: right;
+  color: #000000;
+  background-color: #000000;
+}
+
+.menu a {
+  text-align: center;
+  background-color: #000000;
+}
+
+@media (max-width: 700px) {
+  .nav-links ul li {
+    display: block;
+    color: #040404;
+    border: #00dcd1;
+  }
+
+  .nav-links ul li a {
+    display: block;
+    color: #040404;
+  }
+
+  .nav-links {
+    position: fixed;
+    background: #fff;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: right;
+    z-index: 1;
+    transition: 1s;
+    margin: auto;
+  }
+
+  nav .fa {
+    display: block;
+    color: #fa7e09;
+    margin: 16px;
+    font-size: 32px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  nav .fa-times {
+    display: block;
+    color: #fa7e09;
+    margin: 16px;
+    font-size: 32px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .nav-links ul {
+    padding: 15px;
+    color: #040404;
+  }
+}
+.work {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+.work a {
+  width: 70%;
+}
+
+.work img {
+  flex-direction: column;
+  width: 300px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.work p {
+  align-items: center;
+  color: #ffffff;
+}
+
+.work a :hover {
+  box-shadow: 0 0 20px 10px #ff8409;
+}
+
+@media (max-width: 700px) {
+  .work {
+    display: block;
+    width: 100%;
+  }
+}
+.web h1 {
+  text-decoration: underline;
+  color: black;
+}
+
+.web p {
+  color: black;
+}
+
+.web {
+  background-color: #fa7e09;
+  height: 100vh;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  background-color: #000000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact img {
+  flex-direction: column;
+  width: 400px;
+  width: 80%;
+}
+
+@media (max-width: 700px) {
+  .contact {
+    display: block;
+  }
+}
+.options {
+  display: flex;
+  background: #000000;
+  height: 100vh;
+}
+
+.options a {
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .options {
+    display: block;
+  }
+}
+.apps {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.apps a {
+  width: 70%;
+}
+
+.apps img {
+  flex-direction: column;
+  width: 300px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.apps p {
+  align-items: center;
+  color: #000000;
+}
+
+.apps a :hover {
+  box-shadow: 0 0 20px 10px #ff8409;
+}
+
+@media (max-width: 700px) {
+  .apps {
+    display: block;
+  }
+}
+.footer {
+  padding-top: 200px;
+  background: #000000;
+}
+
+.footer img {
+  width: 200px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+.footer p color .footer h1 {
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .fcf-form-group {
+    margin: auto;
+    text-align: center;
+  }
+
+  .fcf-form-class h1 {
+    color: #fff;
+  }
+}
+.us {
+  text-align: center;
+  background-color: #fa7e09;
+}
+
+.us h1 {
+  text-decoration: underline;
+}
+
+.us img {
+  width: 75px;
+}
+
+.us h1 {
+  color: black;
+}
+
+.us p {
+  color: #000000;
+}
+
+html,
+body {
+  background: #fa7e09;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+  overflow-x: hidden;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 200;
+  padding: 2%;
+  margin: auto;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-weight: 200;
+  padding: 2% 2%;
+  font-size: 28px;
+}
+
+.bg img {
+  width: 100%;
+  height: 500px;
+}
+
+@media (max-width: 700px) {
+  .bg img {
+    width: 120%;
+  }
+}
