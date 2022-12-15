@@ -44,7 +44,7 @@
   }
 
   .text-top h1 {
-    font-size: 60px;
+    font-size: 57px;
   }
 }
 nav #user #publicKey {
@@ -223,6 +223,10 @@ nav .fa {
     display: block;
     width: 100%;
   }
+
+  .work h1 {
+    font-size: 60px;
+  }
 }
 .web h1 {
   color: black;
@@ -316,6 +320,10 @@ nav .fa {
 @media (max-width: 700px) {
   .apps {
     display: block;
+  }
+
+  .app h1 {
+    font-size: 60px;
   }
 }
 .footer {
