@@ -21,6 +21,8 @@
 
 .us p {
   color: #000000;
+  width: 60%;
+  margin: auto;
 }
 
 @media (max-width: 700px) {

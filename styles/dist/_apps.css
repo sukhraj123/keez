@@ -1,6 +1,8 @@
 .apps {
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
   background-color: white;
   padding-bottom: 100px;
 }
