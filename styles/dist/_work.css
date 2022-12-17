@@ -1,12 +1,12 @@
 .work {
-  width: 98%;
+  width: 100%;
   display: flex;
   background-color: black;
   padding-bottom: 100px;
-  justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
-  justify-content: space-around;
+}
+
+.workkk {
+  width: 100%;
 }
 
 .work h1 {
@@ -18,16 +18,12 @@
 }
 
 .work a {
-  width: 100%;
-  justify-content: space-between;
+  width: 80%;
 }
 
 .work img {
-  flex-direction: column-reverse;
-  width: 250px;
-  justify-content: space-between;
-  border-radius: 30px;
-  margin: auto;
+  flex-direction: column;
+  width: 350px;
 }
 
 .work p {
@@ -50,13 +46,15 @@
   }
 }
 .workp {
-  width: 98%;
-  padding-top: 15px;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  background-color: #ff8409;
+  padding-top: 50px;
+  background-color: #fcfcfc;
   padding-bottom: 100px;
-  justify-content: space-between;
+}
+
+.workkk {
+  width: 100%;
 }
 
 .workp h1 {
@@ -64,30 +62,26 @@
   font-weight: 700;
   text-decoration: none;
   font-size: 80px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .workp a {
-  width: 90%;
-  justify-content: space-between;
+  width: 80%;
 }
 
 .workp img {
   flex-direction: column-reverse;
-  width: 250px;
-  justify-content: space-between;
-  border-radius: 30px;
-  margin: auto;
-  box-shadow: #000000;
+  width: 350px;
+  background-color: #fcfcfc;
 }
 
 .workp p {
   align-items: center;
-  color: #000000;
+  color: #ffffff;
 }
 
 .workp a :hover {
-  box-shadow: 0 0 50px 10px #000000;
+  box-shadow: 0 0 50px 10px #adadad;
 }
 
 @media (max-width: 700px) {

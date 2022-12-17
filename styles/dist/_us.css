@@ -34,3 +34,39 @@
     width: 90%;
   }
 }
+.uss {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.uss h1 {
+  text-align: left;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 80px;
+}
+
+.uss img {
+  width: 75px;
+  border-radius: 10px 100px/120px;
+}
+
+.uss h1 {
+  color: #000000;
+}
+
+.uss p {
+  color: #000000;
+  width: 60%;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  .uss h1 {
+    font-size: 55px;
+  }
+
+  .uss p {
+    width: 90%;
+  }
+}
