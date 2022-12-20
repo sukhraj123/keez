@@ -1,5 +1,4 @@
 .love {
-  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -20,13 +19,12 @@
 }
 
 .text-top {
-  background: image url("image/foodbg.gif");
   height: 100vh;
 }
 
 .text-top h1 {
   text-align: left;
-  font-weight: 700;
+  font-weight: 400;
   text-decoration: none;
   font-size: 70px;
 }
@@ -37,7 +35,6 @@
 
 @media (max-width: 700px) {
   .text-top {
-    background: image url(image/Pro.gif);
     background-size: 100%;
     height: 1000px;
     display: block;
@@ -73,7 +70,7 @@ nav {
 }
 
 nav img {
-  width: 120px;
+  width: 100px;
   background-color: #fcfcfc;
 }
 
@@ -189,6 +186,10 @@ nav .fa {
   padding-bottom: 100px;
 }
 
+.workkk {
+  width: 100%;
+}
+
 .work h1 {
   text-align: left;
   font-weight: 700;
@@ -198,15 +199,12 @@ nav .fa {
 }
 
 .work a {
-  width: 70%;
+  width: 80%;
 }
 
 .work img {
   flex-direction: column;
-  width: 300px;
-  justify-content: space-between;
-  border-radius: 10px 100px/120px;
-  margin: auto;
+  width: 350px;
 }
 
 .work p {
@@ -215,7 +213,7 @@ nav .fa {
 }
 
 .work a :hover {
-  box-shadow: 0 0 20px 10px #ff8409;
+  box-shadow: 0 0 50px 10px #adadad;
 }
 
 @media (max-width: 700px) {
@@ -225,6 +223,54 @@ nav .fa {
   }
 
   .work h1 {
+    font-size: 60px;
+  }
+}
+.workp {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.workkk {
+  width: 100%;
+}
+
+.workp h1 {
+  text-align: left;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.workp a {
+  width: 80%;
+}
+
+.workp img {
+  flex-direction: column-reverse;
+  width: 350px;
+  background-color: #fcfcfc;
+}
+
+.workp p {
+  align-items: center;
+  color: #ffffff;
+}
+
+.workp a :hover {
+  box-shadow: 0 0 50px 10px #adadad;
+}
+
+@media (max-width: 700px) {
+  .workp {
+    display: block;
+    width: 100%;
+  }
+
+  .workp h1 {
     font-size: 60px;
   }
 }
@@ -238,7 +284,6 @@ nav .fa {
 }
 
 .web {
-  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -246,7 +291,6 @@ nav .fa {
   display: flex;
   width: 100%;
   margin: auto;
-  background-color: #ffffff;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -292,7 +336,8 @@ nav .fa {
 .apps {
   width: 100%;
   display: flex;
-  background-color: white;
+  justify-content: space-between;
+  justify-content: space-around;
   padding-bottom: 100px;
 }
 
@@ -327,6 +372,7 @@ nav .fa {
   }
 }
 .footer {
+  padding-bottom: 10px;
   background: #000000;
 }
 
@@ -359,7 +405,6 @@ nav .fa {
 }
 .us {
   text-align: center;
-  background-color: #ffffff;
 }
 
 .us h1 {
@@ -380,11 +425,52 @@ nav .fa {
 
 .us p {
   color: #000000;
+  width: 60%;
+  margin: auto;
 }
 
 @media (max-width: 700px) {
   .us h1 {
     font-size: 55px;
+  }
+
+  .us p {
+    width: 90%;
+  }
+}
+.uss {
+  text-align: center;
+}
+
+.uss h1 {
+  text-align: left;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 80px;
+}
+
+.uss img {
+  width: 75px;
+  border-radius: 10px 100px/120px;
+}
+
+.uss h1 {
+  color: #000000;
+}
+
+.uss p {
+  color: #000000;
+  width: 60%;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  .uss h1 {
+    font-size: 55px;
+  }
+
+  .uss p {
+    width: 90%;
   }
 }
 html,
@@ -396,7 +482,11 @@ body {
   text-align: center;
   overflow-x: hidden;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url(/image/tt1.gif);
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
   align-items: center;
+  background-attachment: fixed;
 }
 
 a {
@@ -423,7 +513,22 @@ p {
   height: 500px;
 }
 
+.nav__sections-link--highlight {
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 @media (max-width: 700px) {
+  html,
+body {
+    background-image: url(/image/mobilee.gif);
+    background-size: 100%;
+  }
+
   h1 {
     font-size: 60px;
   }

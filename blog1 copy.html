@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KZ Blogs</title>
+    <link rel="icon" href="image/k.png">
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
+
+</head>
+<body>
+  
+  
+  
+  <nav id="navbar">
+    <img src="image/211.png" alt="" width="70px" data-aos="fade-left"/>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        
+
+        <ul id="menu">
+            
+            <div>
+
+                <li><a href="index.html">HOME</a></li>
+              <li><a href="Blog.html">BLOG</a></li>
+
+           
+        
+        </ul>
+
+    </div>
+       
+    
+    <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+</nav>
+
+    
+    
+
+      
+    
+       <div class='uss' id="about">
+        <h1>My Career Goals For Web Development.</h1>
+        <img src="image/211.png" alt="" data-aos="fade-left"  />
+        <p>
+    
+            I am trying to make a fulltime career off this hobby. 
+            To get a job at first and make money on and a business on the side. 
+            I am a entrepreneur at heart. I think "what I love others must also love".
+             This philosophy helps me analysis the market in a cool way. To create something for the people.
+            
+            <br><br>
+            
+            
+            I've always been into making websites. Since I was in middle school I learned ways to 
+            make websites & deploy they live on the internet. Now I'm able to make money off this little hobby.
+            
+            <br><br>
+            
+            Stuck in a 9-5 That i don't want to work. I plan on learning and turning that knowledge. Into my business venture. 
+            I feel I have ideas, and one day this will be very useful tool for me. Just to making it past this curve.
+            
+    <br><br>
+
+    Sukh (Keez)
+    
+    
+        </p>
+      </div>
+    
+     
+      <h2>
+        JavaScript login page with database
+        </h2>
+        <form action="next_page.php" method="post">
+          <div class="container">
+            <label for="username">
+         <b>
+          Enter Username Here
+         </b>
+           </label>
+            <input type="text" placeholder=" Username " name="username" required>
+            <label for="password">
+         <b>
+          Enter Password here
+         </b>
+             </label>
+            <input type="password" placeholder=" Password" name="password" required>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <button type="submit">
+         Sign in button
+            </button>
+          </div>
+          <div class="container" >
+            <button type="button" class="cncl">
+         Cancel
+            </button>
+            <span class="password"><a href="forgotpass.html">Forgot password?</a></span>
+          </div>
+        </form>
+        <script>
+        var connection = mysql.createConnection({
+         host : 'hostname',
+         user : 'username',
+         password : 'password',
+         database : 'databaseName'
+        });
+
+      <section class="footer">
+        <div class="news"><h1>NEWS & DEALS</h1></div>
+  
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSdgbuWQ5BkOSshtPExikCZ5XQH7z4c-KDvZeF1o-xuoTLWfCg/formResponse" method="post" target="hidden" onsubmit="submitted=true">
+                    
+                    
+          
+          <div class="fcf-form-group">
+              <label for="Email" class="fcf-label"></label>
+              <div class="fcf-input-group">
+                  <input type="email" id="Email" name="entry.1045781291" class="fcf-form-control" required>
+              </div>
+          </div>
+  
+          
+  
+          <div class="fcf-form-group">
+              <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit Email</button>
+          </div>
+  
+  
+      </form>
+      </div>
+  
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+        <img src="image/k.png" alt="" data-aos="flip-up">
+
+        <div class="footer">
+          <p>Made by <a href="www.KeezRyuusei.ca">KeezRyuusei.ca</a> 
+            © 2023 KZ Web Design & Development, All Rights Reserved.</p>
+        </div>
+      </section>
+
+
+
+
+
+
+      <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+    });
+    
+    
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 3000,
+            once: true,
+          });
+        </script>
+    
+    <script>
+    
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+    
+        window.onscroll = function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navbar.classList.add("sticky");
+    
+            }
+            else{
+                navbar.classList.remove("sticky");
+            }
+        }
+    
+    </script>
+        
+    <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+        
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+    
+           
+            
+        </script>
+        
+    
+</body>
+</html>
