@@ -18,9 +18,15 @@
   width: 100%;
 }
 
+header {
+  height: 100%;
+}
+
 .text-top {
+  background-image: url(/image/new.gif);
+  height: 750px;
+  background-attachment: scroll;
   background-size: 100%;
-  padding-bottom: 200px;
 }
 
 .text-top h1 {
@@ -28,16 +34,21 @@
   font-weight: 400;
   text-decoration: none;
   font-size: 70px;
-  color: #fff;
+  color: #000000;
+  height: fit-content;
 }
 
 .text-top p {
   text-align: left;
+  height: fit-content;
 }
 
 @media (max-width: 700px) {
   .text-top {
-    background-size: 100%;
+    top: 0;
+    background-size: 110%;
+    background-image: url(/image/neww.gif);
+    background-repeat: no-repeat;
     display: block;
   }
 
@@ -47,7 +58,6 @@
 }
 nav #user #publicKey {
   right: 0;
-  height: 50px;
   padding: 5px;
   justify-content: space-between;
   width: 40px;
@@ -59,6 +69,11 @@ nav.sticky {
   top: 0;
   right: 0;
   left: 0;
+}
+
+.svg {
+  width: 20px;
+  padding-right: 5px;
 }
 
 nav {
@@ -116,20 +131,6 @@ nav img {
 
 nav .fa {
   display: none;
-}
-
-.menu {
-  width: 80px;
-  text-align: center;
-  margin: auto;
-  align-items: right;
-  color: #000000;
-  background-color: #000000;
-}
-
-.menu a {
-  text-align: center;
-  background-color: #000000;
 }
 
 @media (max-width: 700px) {
@@ -338,6 +339,7 @@ nav .fa {
   display: flex;
   justify-content: space-between;
   justify-content: space-around;
+  height: fit-content;
   padding-bottom: 100px;
 }
 
@@ -375,6 +377,7 @@ nav .fa {
   padding-bottom: 10px;
   background: #000000;
   height: 100vh;
+  bottom: 0;
 }
 
 .footer img {
@@ -476,6 +479,7 @@ nav .fa {
 }
 html,
 body {
+  background-color: #ffe8d3;
   min-height: fit-content;
   padding: 0;
   margin: 0;
@@ -504,16 +508,13 @@ p {
   font-size: 28px;
 }
 
-.bg img {
-  width: 100%;
-  height: 500px;
-}
-
 @media (max-width: 700px) {
   html,
 body {
-    background-image: url(/image/mobilee.gif);
-    background-size: 100%;
+    background-size: 110%;
+    background-color: #ffe8d3;
+    display: block;
+    background-repeat: no-repeat;
   }
 
   h1 {

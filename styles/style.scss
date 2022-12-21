@@ -12,7 +12,7 @@
 
 html,
 body {
-  
+  background-color: #ffe8d3;
   min-height: fit-content;
   padding: 0;
   margin: 0;
@@ -47,19 +47,14 @@ p{
   font-size: 28px;
 }
 
-.bg img{
-  
-  width: 100%;
-  height: 500px;
-  
-}
+
 
 @media(max-width: 700px){
  
   html,
   body{
     background-size: 110%;
-        background-image: url(/image/neww.gif);
+        background-color: #ffe8d3;
     display: block;
     background-repeat: no-repeat;
   }
