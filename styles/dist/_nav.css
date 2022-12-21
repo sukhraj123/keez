@@ -1,6 +1,5 @@
 nav #user #publicKey {
   right: 0;
-  height: 50px;
   padding: 5px;
   justify-content: space-between;
   width: 40px;
@@ -14,6 +13,11 @@ nav.sticky {
   left: 0;
 }
 
+.svg {
+  width: 20px;
+  padding-right: 5px;
+}
+
 nav {
   display: flex;
   padding: 0% 6%;
@@ -24,7 +28,7 @@ nav {
 }
 
 nav img {
-  width: 100px;
+  width: 80px;
   background-color: #fcfcfc;
 }
 
@@ -69,20 +73,6 @@ nav img {
 
 nav .fa {
   display: none;
-}
-
-.menu {
-  width: 80px;
-  text-align: center;
-  margin: auto;
-  align-items: right;
-  color: #000000;
-  background-color: #000000;
-}
-
-.menu a {
-  text-align: center;
-  background-color: #000000;
 }
 
 @media (max-width: 700px) {

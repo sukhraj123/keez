@@ -2,9 +2,17 @@
     width: 100%;
     
   }
+  header{
+    height: 100%;
+  }
   .text-top{
+    background-image: url(/image/new.gif);
+    height: 750px;
+    background-attachment: scroll;
     
-   height: 100vh;
+    
+   background-size: 100%;
+   
     
   } 
   .text-top h1{
@@ -12,16 +20,24 @@
     font-weight: 400;
     text-decoration: none;
     font-size: 70px;
+    color:#000000;
+    height: fit-content;
   }
   .text-top p{
-    text-align: left
+    text-align: left;
+    height: fit-content;
+    
   }
+
+
   @media(max-width: 700px){
 
     .text-top{
-       
-        background-size: 100%;
-        height: 1000px;
+       top: 0;
+        background-size: 110%;
+        background-image: url(/image/neww.gif);
+    
+    background-repeat: no-repeat;
         display: block;
       }
       .text-top h1{
