@@ -27,6 +27,10 @@ header {
   height: fit-content;
 }
 
+.text-top img {
+  width: 100px;
+}
+
 @media (max-width: 700px) {
   .text-top {
     top: 0;

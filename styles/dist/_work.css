@@ -6,6 +6,14 @@
   align-items: right;
 }
 
+.worko {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
 .workkk {
   padding: auto;
   flex-direction: column;
@@ -18,7 +26,7 @@
 }
 
 .work h1 {
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   text-decoration: none;
   font-size: 80px;
@@ -31,6 +39,23 @@
 }
 
 .work img {
+  width: 300px;
+}
+
+.worko h1 {
+  text-align: left;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.worko a {
+  width: 100%;
+  flex-wrap: 31%;
+}
+
+.worko img {
   width: 300px;
 }
 
@@ -100,4 +125,33 @@
   .workp h1 {
     font-size: 60px;
   }
+
+  #work {
+    display: block;
+    width: 100%;
+  }
+
+  #grid {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+}
+#work {
+  background-color: black;
+}
+
+#grid {
+  height: 50%;
+  display: grid;
+  grid-template-areas: "a a a a";
+  gap: 110px;
+  grid-auto-columns: 200px;
+  width: 100%;
+  justify-content: center;
+}
+
+#grid #item img {
+  height: 300px;
+  background-color: black;
 }
