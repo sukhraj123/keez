@@ -23,17 +23,6 @@ header{
     margin-bottom: -50%;
     background-image: url(./image/TR7.gif);
 }
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
 .icon-bar a {
   display: block;
   text-align: center;
@@ -78,7 +67,7 @@ header{
 }
 .icon-bar {
   position: fixed;
-  top: 30%;
+  top: 80%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
